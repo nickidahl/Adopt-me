@@ -23,7 +23,7 @@ const App = () => {
   ]);*/
 
   return (
-        <div>
+        <div id="something-important">
             <h1>Adopt me!</h1>
             <Pet name="Luna" animal="dog" breed="Havanese"/>
             <Pet name="Nacho" animal="Kat" breed="Varm kat"/>
