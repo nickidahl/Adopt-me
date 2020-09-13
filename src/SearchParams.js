@@ -18,6 +18,9 @@ export default function SearchParams() {
         }, console.error);
     }, [animal, setBreeds, setBreed]);
 
+    useEffect(()=> {
+        console.log("i run once!");
+    } , [])
     return (
         <div className="search-params">
             <h1>{location}</h1>
